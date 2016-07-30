@@ -1,0 +1,15 @@
+#!/bin/bash
+if [ $(whoami) == "root" ]; then 
+  echo "Creating backups..."
+  sudo cp /usr/share/X11/xkb/symbols/se /usr/share/X11/xkb/symbols/se.backup
+  echo "/usr/share/X11/xkb/symbols/se.backup"
+  sudo cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.backup
+  echo "/usr/share/X11/xkb/rules/evdev.xml" 
+  sudo cp ./se /usr/share/X11/xkb/symbols/se
+  sudo cp ./evdev.xml /usr/share/X11/xkb/rules/evdev.xml
+  echo "Installed Swedish-Colemak as \"se\" variant \"sec\""
+  exit 0
+else
+  echo "Root required to modify /usr files. Rerun this script as root."
+  exit 1
+fi 
