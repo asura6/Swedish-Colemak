@@ -52,7 +52,7 @@ xkb_symbols "colemak" {
 
     name[Group1]="Swedish (Colemak)";
 
-    key <TLDE> { [   asciitilde,   	grave,      	 grave,       	   grave ] };
+    key <TLDE> { [   asciitilde,   	actue,      	 grave,       	   grave ] };
     key <AE01> { [            1,       exclam,      exclamdown,      onesuperior ] };
     key <AE02> { [            2,           at,       	    at,      twosuperior ] };
     key <AE03> { [            3,   numbersign,      numbersign,    threesuperior ] };
@@ -92,7 +92,7 @@ xkb_symbols "colemak" {
     key <AC10> { [            o,            O,      numbersign,       numbersign ] };
     key <AC11> { [   adiaeresis,   Adiaeresis,       backslash,        backslash ] };
 
-    key <AB01> { [            z,            Z,           minus,            minus ] };
+    key <AB01> { [            z,            Z,          Escape,            minus ] };
     key <AB02> { [            x,            X, 		  plus,             plus ] };
     key <AB03> { [            c,            C,        	  less,             less ] };
     key <AB04> { [            v,            V,         greater,          greater ] };
@@ -101,7 +101,7 @@ xkb_symbols "colemak" {
     key <AB07> { [            m,            M,     	   bar,        	     bar ] };
     key <AB08> { [        comma,    braceleft,       braceleft,        braceleft ] };
     key <AB09> { [       period,   braceright,      braceright,       braceright ] };
-    key <AB10> { [        slash,     question,    questiondown,     questiondown ] };
+    key <AB10> { [        slash,     question,       backslash,     questiondown ] };
 
     key <CAPS> { [    BackSpace,    BackSpace,       BackSpace,        BackSpace ] };
     key <LSGT> { [       Escape,       Escape,          Escape,           Escape ] };
