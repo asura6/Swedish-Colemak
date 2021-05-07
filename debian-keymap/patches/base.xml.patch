@@ -1,0 +1,15 @@
+--- /usr/share/X11/xkb/rules/base.xml	2021-02-22 10:36:46.000000000 +0100
++++ ../usr/share/X11/xkb/rules/base.xml	2021-05-07 03:08:33.578519095 +0200
+@@ -5058,6 +5058,12 @@
+         </variant>
+         <variant>
+           <configItem>
++            <name>colemak</name>
++            <description>Swedish (Colemak)</description>
++          </configItem>
++        </variant>
++        <variant>
++          <configItem>
+             <name>dvorak</name>
+             <description>Swedish (Dvorak)</description>
+           </configItem>

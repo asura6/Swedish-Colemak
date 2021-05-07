@@ -1,0 +1,74 @@
+--- /usr/share/X11/xkb/symbols/se	2021-02-22 10:36:46.000000000 +0100
++++ ../usr/share/X11/xkb/symbols/se	2021-05-07 03:46:50.980320009 +0200
+@@ -44,6 +44,71 @@
+     key <AE12>	{ [     acute,      grave,    plusminus,      notsign ]	};
+ };
+ 
++// Swedish Colemak
++partial alphanumeric_keys
++xkb_symbols "colemak" {
++
++    include "se(basic)"
++
++    name[Group1]="Swedish (Colemak)";
++
++    key <TLDE> { [   asciitilde,   	grave,      	 grave,       	   grave ] };
++    key <AE01> { [            1,       exclam,      exclamdown,      onesuperior ] };
++    key <AE02> { [            2,           at,       	    at,      twosuperior ] };
++    key <AE03> { [            3,   numbersign,      numbersign,    threesuperior ] };
++    key <AE04> { [            4,       dollar,        EuroSign,         EuroSign ] };
++    key <AE05> { [            5,      percent,         percent,          percent ] };
++    key <AE06> { [            6,  asciicircum,         hstroke,          Hstroke ] };
++    key <AE07> { [            7,    ampersand,             eth,              ETH ] };
++    key <AE08> { [            8,     asterisk,           thorn,            THORN ] };
++    key <AE09> { [            9,    parenleft,  leftsinglequotemark,  leftdoublequotemark ] };
++    key <AE10> { [            0,   parenright, rightsinglequotemark,  rightdoublequotemark ] };
++    key <AE11> { [        minus,   underscore,          endash,           emdash ] };
++    key <AE12> { [        equal,         plus,        multiply,         division ] };
++
++    key <AD01> { [            q,            Q,        asterisk,         asterisk ] };
++    key <AD02> { [            w,            W,     asciicircum,      asciicircum ] };
++    key <AD03> { [            f,            F,           equal,            equal ] };
++    key <AD04> { [            p,            P,      underscore,       underscore ] };
++    key <AD05> { [            g,            G,     Greek_delta,        Greek_rho ] };
++    key <AD06> { [            j,            J,     Greek_gamma,         Greek_mu ] };
++    key <AD07> { [            l,            L,          dollar,           dollar ] };
++    key <AD08> { [            u,            U,          exclam,           exclam ] };
++    key <AD09> { [            y,            Y,      dead_acute,       dead_acute ] };
++    key <AD10> { [   odiaeresis,   Odiaeresis, dead_circumflex,  dead_circumflex ] };
++    key <AD11> { [  	  aring,        Aring,      dead_tilde,       dead_tilde ] };
++    key <AD12> { [	  colon,    semicolon,	     semicolon,        semicolon ] };
++    key <BKSL> { [   apostrophe,     quotedbl,        quotedbl,         quotedbl ] };
++
++    key <AC01> { [            a,            A,       parenleft,        parenleft ] };
++    key <AC02> { [            r,            R,     bracketleft,      bracketleft ] };
++    key <AC03> { [            s,            S,    bracketright,     bracketright ] };
++    key <AC04> { [            t,            T,      parenright,       parenright ] };
++    key <AC05> { [            d,            D,      Greek_beta,     Greek_lambda ] };
++    key <AC06> { [            h,            H,     Greek_alpha,         Greek_pi ] };
++    key <AC07> { [            n,            N,              at,               at ] };
++    key <AC08> { [            e,            E,         percent,          percent ] };
++    key <AC09> { [            i,            I,       ampersand,        ampersand ] };
++    key <AC10> { [            o,            O,      numbersign,       numbersign ] };
++    key <AC11> { [   adiaeresis,   Adiaeresis,       backslash,        backslash ] };
++
++    key <AB01> { [            z,            Z,           minus,            minus ] };
++    key <AB02> { [            x,            X, 		  plus,             plus ] };
++    key <AB03> { [            c,            C,        	  less,             less ] };
++    key <AB04> { [            v,            V,         greater,          greater ] };
++    key <AB05> { [            b,            B,     Greek_theta,      Greek_omega ] };
++    key <AB06> { [            k,            K,   Greek_epsilon,        Greek_phi ] };
++    key <AB07> { [            m,            M,     	   bar,        	     bar ] };
++    key <AB08> { [        comma,    braceleft,       braceleft,        braceleft ] };
++    key <AB09> { [       period,   braceright,      braceright,       braceright ] };
++    key <AB10> { [        slash,     question,    questiondown,     questiondown ] };
++
++    key <CAPS> { [    BackSpace,    BackSpace,       BackSpace,        BackSpace ] };
++    key <LSGT> { [       Escape,       Escape,          Escape,           Escape ] };
++    key <SPCE> { [        space,        space,           space,     nobreakspace ] };
++};
++
++
+ // Swedish Dvorak
+ partial alphanumeric_keys
+ xkb_symbols "dvorak" {
