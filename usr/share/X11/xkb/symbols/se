@@ -52,7 +52,7 @@ xkb_symbols "colemak" {
 
     name[Group1]="Swedish (Colemak)";
 
-    key <TLDE> { [   asciitilde,   	actue,      	 grave,       	   grave ] };
+    key <TLDE> { [   asciitilde,   	acute,      	 grave,       	   grave ] };
     key <AE01> { [            1,       exclam,      exclamdown,      onesuperior ] };
     key <AE02> { [            2,           at,       	    at,      twosuperior ] };
     key <AE03> { [            3,   numbersign,      numbersign,    threesuperior ] };
