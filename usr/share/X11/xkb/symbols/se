@@ -64,7 +64,7 @@ xkb_symbols "colemak" {
     key <AE09> { [            9,    parenleft,  leftsinglequotemark,  leftdoublequotemark ] };
     key <AE10> { [            0,   parenright, rightsinglequotemark,  rightdoublequotemark ] };
     key <AE11> { [        minus,   underscore,          endash,           emdash ] };
-    key <AE12> { [        equal,         plus,        multiply,         division ] };
+    key <AE12> { [        plus,         plus,        multiply,         division ] };
 
     key <AD01> { [            q,            Q,        asterisk,         asterisk ] };
     key <AD02> { [            w,            W,     asciicircum,      asciicircum ] };
@@ -105,6 +105,7 @@ xkb_symbols "colemak" {
 
     key <CAPS> { [    BackSpace,    BackSpace,       BackSpace,        BackSpace ] };
     key <LSGT> { [       Escape,       Escape,          Escape,           Escape ] };
+    key <RTSH> { [       Escape,       Escape,          Escape,           Escape ] };
     key <SPCE> { [        space,        space,           space,     nobreakspace ] };
 };
 
